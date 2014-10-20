@@ -1,6 +1,8 @@
 <?php
 
-class User implements AbstractModel
+require_once 'AbstractModel.php';
+
+class User extends AbstractModel
 {
 	
 	protected $name;
