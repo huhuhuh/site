@@ -1,6 +1,6 @@
 <?php
 
-class AbstractModel
+abstract class AbstractModel
 {
  //set values for protected/private fields via the corresponding mutators
     public function __set($field, $value) {
